@@ -1,7 +1,7 @@
 ---
 layout: article
 titles:
-  en: About
+  en: Lingwei Li
   zh: 关于
   zh-Hans: 关于
   zh-Hant: 關於
@@ -32,7 +32,6 @@ TeXt is a super customizable Jekyll theme for personal site, team site, blog, pr
 - Flowchart, Sequence diagram, Gantt diagram ([mermaid](https://mermaidjs.github.io/))
 - Line Chart, Bar Chart, Radar Chart, Pie Chart ([chartjs](http://www.chartjs.org/))
 - Page views ([LeanCloud](https://leancloud.cn/))
-- Comments ([Disqus](https://disqus.com/))
 - Google Analytics
 
 ## Skins
