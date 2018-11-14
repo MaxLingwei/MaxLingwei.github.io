@@ -8,7 +8,7 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](lingweili.jpg)
+![TeXt Theme](llw.jpg)
 
 ## About Me
 I am currently a master student at Shanghai Jiao Tong University.
