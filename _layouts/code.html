@@ -8,14 +8,27 @@ titles:
 ---
 
 <div class="layout--archive js-all">
-  {%- include tags.html -%}
-  <div class="js-result layout--archive__result d-none">
-    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
-  </div>
+    <h2> Toolboxes
+    </h2>
+    <ul>
+        <li>
+            &nbsp; <a href="https://github.com/MaxLingwei/tensor_toolbox">Tensor Toolbox</a>&nbsp;
+        </li>
+    </ul>
+
+    <ul>
+        <li>
+            &nbsp; <a href="https://github.com/MaxLingwei/MatConvNet2caffe">Convert Matconvnet Model to Caffe</a>&nbsp;
+        </li>
+    </ul>
+
+
+    <h2> Tensor Completion
+    </h2>
+    <ul>
+        <li>
+            &nbsp; <a href="https://github.com/MaxLingwei/TensorCompletion">Color Image Inpainting</a> &nbsp;
+        </li>
+    </ul>
 </div>
 
-<script>
-  {%- include scripts/archieve.js -%}
-</script>
-
-{{ content }}

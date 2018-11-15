@@ -6,16 +6,27 @@ titles:
   zh-Hans: 归档
   zh-Hant: 歸檔
 ---
-## Conference
+
 <div class="layout--archive js-all">
-  {%- include tags.html -%}
-  <div class="js-result layout--archive__result d-none">
-    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
-  </div>
+    <h2> Conference
+    </h2>
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="icip2018">1</a>]
+</td>
+<td class="bibtexitem">
+    Lingwei li, Fei Jiang, Ruimin Shen.
+ <em>Total Variation Regularized Reweighted Low-Rank Tensor Completion for Color Image Inpainting</em>.
+ 2018 25th IEEE International Conference on Image Processing(ICIP).
+[&nbsp;<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8451530">pdf</a>&nbsp;]
+[&nbsp;<a href="src/icip2018.bib">bib</a>&nbsp;]
+[&nbsp;<a href="https://github.com/MaxLingwei/TensorCompletion">code</a>&nbsp;]
+
+</td>
+</tr>
+
+    <h2> Journel
+    </h2>
 </div>
 
-<script>
-  {%- include scripts/archieve.js -%}
-</script>
-
-{{ content }}
